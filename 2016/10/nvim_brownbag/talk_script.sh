@@ -1,3 +1,4 @@
 #!/bin/sh
 
-nvim-qt ./presentation.vpt --  -u ./vimrc/presentation.vim 
+( ctags -R * . )
+nvim-qt ./presentation.vpt --  -u ./init.vim

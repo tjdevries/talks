@@ -1,5 +1,6 @@
 " {{{ Setting up this path
-set rtp+=~/Dropbox/my_talks/2016-10_nvim_brownbag/vimrc/,
+
+call execute('set rtp+=' . expand('%:p:h') . ',')
 
 let s:dropbox_prefix = expand('~/Dropbox/my_talks/2016-10_nvim_brownbag/')
 
