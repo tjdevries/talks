@@ -2,10 +2,10 @@
 
 call execute('set rtp+=' . expand('%:p:h') . ',')
 
-let s:dropbox_prefix = expand('~/Dropbox/my_talks/2016-10_nvim_brownbag/')
+let s:talk_location = expand('%:p:h')
 
-" source s:dropbox_prefix . 'vimrc/plug.vim'
-source ~/Dropbox/my_talks/2016-10_nvim_brownbag/vimrc/plug.vim
+" source s:talk_location . 'vimrc/plug.vim'
+call execute('source ' . s:talk_location . '/vimrc/plug.vim')
 
 let g:my_tags_manager = 'gutentags'
 let g:my_current_uniter = 'unite'
@@ -15,7 +15,7 @@ let g:python_host_prog = expand('~/.pyenv/versions/neovim2/bin/python')
 let g:python2_host_prog = expand('~/.pyenv/versions/neovim2/bin/python')
 let g:python3_host_prog = expand('~/.pyenv/versions/neovim3/bin/python')
 
-let s:plugin_location = s:dropbox_prefix . 'plugins/'
+let s:plugin_location = s:talk_location . '/plugins/'
 
 " Show updating with :PlugUpdate
 call plug#begin(s:plugin_location)
@@ -26,7 +26,7 @@ Plug 'morhetz/gruvbox'
 " Plug 'tjdevries/gruvbox-tj'
 
 " Presentation software
-Plug 'trapd00r/vimpoint'
+Plug 'tjdevries/vimpoint'
 
 " Completion
 Plug 'Shougo/deoplete.nvim'
@@ -51,10 +51,16 @@ call plug#end()
 
 " My configuration
 " source ~/Dropbox/my_talks/2016-10_nvim_brownbag/plugins/config_manager/nvim/init/
-source ~/Dropbox/my_talks/2016-10_nvim_brownbag/plugins/config_manager/nvim/init/01-basic_configuration.vim
-source ~/Dropbox/my_talks/2016-10_nvim_brownbag/plugins/config_manager/nvim/init/03-tags.vim
-source ~/Dropbox/my_talks/2016-10_nvim_brownbag/plugins/config_manager/nvim/init/04-keymaps.vim
-source ~/Dropbox/my_talks/2016-10_nvim_brownbag/plugins/config_manager/nvim/init/05-deoplete.vim
+let s:plugin_confs_to_source = [
+      \ 'plugins/config_manager/nvim/init/01-basic_configuration.vim',
+      \ 'plugins/config_manager/nvim/init/03-tags.vim',
+      \ 'plugins/config_manager/nvim/init/04-keymaps.vim',
+      \ 'plugins/config_manager/nvim/init/05-deoplete.vim',
+      \ ]
+
+for my_conf in s:plugin_confs_to_source
+  call execute('source ' . s:talk_location . '/' .  my_conf)
+endfor
 " }}}
 " {{{ Colorscheme
 set background=dark
@@ -124,3 +130,29 @@ nnoremap ,nod :call SetupCompletionExample()<CR>
 nnoremap ,yesd :call SetupDeopleteExample()<CR>
 
 " TODO: Unite menu for commands.
+let g:unite_source_menu_menus.quick_functions = {
+      \ 'description': 'Commands for the presentation'
+      \ }
+let g:unite_source_menu_menus.quick_functions.command_candidates = {
+      \ 'vimrc                      [ Set up the vimrc example ] ': 'call SetupVimrcExample()',
+      \ 'python, regular completion [ Python with no deoplete  ] ': 'call SetupCompletionExample()',
+      \ 'python, deoplete enabled   [ Python with deoplete     ] ': 'call SetupDeopleteExample()',
+      \ 'c,                         [ Snippets and C           ] ': 'call SetupCExample()',
+      \ }
+
+nnoremap ,pc :Unite menu:quick_functions -start-insert<CR>
+
+let g:nvimqt_font = 14
+let g:nvimqt_font_name = 'Fira Mono Medium for Powerline:h'
+function! s:change_gui_font(action) abort
+  if a:action ==# 'plus'
+    let g:nvimqt_font = g:nvimqt_font + 1
+  else
+    let g:nvimqt_font = g:nvimqt_font - 1
+  endif
+
+  call execute('Guifont ' . g:nvimqt_font_name . string(g:nvimqt_font))
+endfunction
+
+nnoremap ,+ :call <SID>change_gui_font('plus')<CR>
+nnoremap ,- :call <SID>change_gui_font('minus')<CR>
