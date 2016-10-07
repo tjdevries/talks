@@ -1,0 +1,6 @@
+nvim
+vim
+neovim
+plugins
+brown bag
+vimpoint
