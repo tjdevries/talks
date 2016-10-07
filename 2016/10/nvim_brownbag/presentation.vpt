@@ -1,0 +1,257 @@
+!!!!! To view this file as a Vimpoint presentation, make sure the
+!!!!! various plugins and syntax files are installed and then type:
+!!!!!
+!!!!!      :Run
+!!!!!
+!!!!! while editing this file in Vim
+
+=title     What is Neovim?
+
+=presenter  TJ DeVries & Zak Walton
+=info       DW Brown Bag
+
+=duration   50 minutes
+
+!!!!! Just use autopause all the time :)
+=autopause
+
+
+=section [#] Introduction
+
+
+A Presentation about Vim...
+
+...In Vim!
+
+* Thanks to {{trapd00r/vimpoint}}
+
+* This will probably lead to a few goofy things happening
+    * Lots of plugins / Not my regular work environment, etc.
+
+Why Vim?
+
+* What can Vim do very well that other editors struggle with?
+
+    * Edit text quickly
+
+    * Navigate quickly
+
+    * Extensible
+
+    * Fun!
+
+Why NeoVim?
+
+* Please keep in mind, some of this will be my opinion.
+* If you have other opinions or have had different experiences,
+  please chime in!
+
+=break
+
+* More modern open source philosophy
+    * Multiple maintainers
+    * Github collaboration with maintainers
+    * Lots of feedback
+    * Nice community
+    * Easy to get involved! (I've had 3 PR's accepted!)
+
+=break
+
+* Less repeated work
+    * Clipboard support
+    * Remote plugin architecture
+    * Using libraries (libterm, xclip)
+* Less *NIH* (Not Implemented Here) mentality
+
+=break
+
+* True client-server architecture
+    * Allows for embedding anywhere (opposite EMACS approach)
+    * Custom GUIs
+        * nvim-qt
+        * nyaovim
+        * and more!
+
+
+=section [#] Modern Vim
+
+Using Vim's Built-in Awesomeness
+
+* A few of these I'll show now, and a few I will
+  show in conjunction with some plugins
+
+=break
+
+* Count Operator Object
+
+* Search / Replace / Regex
+
+* Macros / Repeat
+
+
+How to make Vim have "modern" features
+
+* Plugin Management: **Vim-plug**
+* Completion: **Deoplete + Sources**
+* Snippets: **Ultisnips**
+* Tags: **Gutentags**
+* Shorcuts: **Unite**
+
+=section [#] Plugin Management
+
+Plugin Management
+
+* With Vim-plug, it's easy:
+
+    " In your vimrc
+    call plug#begin()
+
+    " Install a plugin
+    Plug 'shougo/deoplete.nvim'
+    " Lazy load plugin only in Python files
+    Plug 'davidhalter/jedi-vim', { 'for': 'python' }
+
+    " Install a plugin and then `do` something
+    Plug 'powerline/fonts', { 'do': './install.sh' } \
+        | Plug 'bling/vim-airline'
+
+    call plug#end()
+
+=break
+
+* Here's what I used for this presentation
+
+=example ./vimrc/presentation.vim
+
+
+=section [#] Completion
+
+Completion
+
+* First learn about some built-in features of Vim
+
+=break
+
+   :help ins-completion 
+
+=example demos/completion.py
+
+* Let's see some cool examples!
+
+
+* With deoplete, it's easy:
+
+=example demos/completion.py
+
+=section [#] Snippets
+
+Snippets
+
+* Templates for code writing
+
+* Couple options:
+
+    * neosnippets
+
+    * Ultisnips
+
+    * Custom solution?
+
+* I use Ultisnips
+
+=break
+
+* Community snippets 
+
+* Make your own!
+
+* Here are some examples of mine:
+
+    * In python:
+
+=example ./demos/py_snippets.py
+
+    * In C:
+
+=example ./demos/c_snippets.c
+
+=section [#] Tags and navigation
+
+Tags and Navigation
+
+* "GUIs make it so I can go to the definition of stuff!
+  Vim could never do that"
+
+* WRONG! :)
+
+=break
+
+* Introducing ctags, which can be found on pretty much every machine
+
+* You can run ctags manually, usually with some command like
+
+    $ ctags -R .
+
+* And now you have your tags generated
+
+=break
+
+* However, I use {{ludovicchabant/vim-gutentags}}.
+
+* It manages tags files and keeps them up to date, and in general,
+    in your project scope, with is very nice.
+
+    * Do note that this will pretty much put tags files everywhere.
+
+    * You should put tags in your global gitignore!
+
+* Here's an example.
+
+=example ./demos/tags_follower.py
+
+=section [#] Shortcuts / Navigation / Everything Unite!
+
+Unite.nvim
+
+* First off, there's a new version coming out called {{denite.nvim}}
+
+* It will be faster and better, but it doesn't have all the features
+  I'm going to be showing you today, and it's a bit experimental...
+  And I'm already worried about things breaking down.
+
+* Anyways...
+
+=break
+
+* What can you do with Unite?...
+
+* Anything!
+
+    * Fuzzy finding
+
+    * Tab/Buffer/Window/Line navigation
+
+    * Play radio stations
+
+    * Shortcuts
+
+=break
+
+* I only recently discovered this, so I haven't completely
+  unlocked the power of Unite.
+
+* However, I use it for a few main things
+
+=break
+
+* Open buffers
+
+=section [#] Stuff we couldn't get to
+
+AND MORE!
+
+* Haven't talked about:
+    * github.com/neomake/neomake: Asynchronous linting, but not that
+      exciting to watch in a presentation.
+    * github.com/vim-airline/vim-airline: A really pretty and
+      easy to configure statusline
