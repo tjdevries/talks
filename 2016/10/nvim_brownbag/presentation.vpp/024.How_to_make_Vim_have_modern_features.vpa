@@ -1,15 +1,15 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                               How to make Vim have "modern" features                               
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
+   · Plugin Management: Vim-plug                                                                   
+   · Completion: Deoplete + Sources                                                                
+   · Snippets: Ultisnips                                                                           
+   · Tags: Gutentags                                                                               
+   · Shorcuts: Unite                                                                               
                                                                                                     
-                                                                                                    
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         

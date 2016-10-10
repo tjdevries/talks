@@ -92,6 +92,29 @@ Using Vim's Built-in Awesomeness
 
 * Macros / Repeat
 
+=break
+
+* Speaking Vim's Language: Count, Operator Object
+
+    # Move one word
+    one word two word
+
+    # Delete two words
+    one two three
+
+=break
+
+* Speaking Vim's Language: Count, Operator Object
+
+    int main(not good) {
+       int a;
+       char b;
+
+       a = 5 + 7;
+       if (a == 12) {
+           printf("Wow!");
+       }
+    }
 
 How to make Vim have "modern" features
 
@@ -125,7 +148,7 @@ Plugin Management
 
 * Here's what I used for this presentation
 
-=example ./vimrc/presentation.vim
+=example ./init.vim
 
 
 =section [#] Completion

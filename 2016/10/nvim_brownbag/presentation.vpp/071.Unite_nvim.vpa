@@ -1,19 +1,19 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                                             Unite.nvim                                             
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
+   · What can you do with Unite?...                                                                
                                                                                                     
+   · Anything!                                                                                     
                                                                                                     
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
+       * Fuzzy finding                                                                              
+                                                                                                    
+       * Tab/Buffer/Window/Line navigation                                                          
+                                                                                                    
+       * Play radio stations                                                                        
+                                                                                                    
+       * Shortcuts                                                                                  
+                                                                                                    
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         

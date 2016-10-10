@@ -1,14 +1,14 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                                              Snippets                                              
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
+   · Community snippets                                                                            
                                                                                                     
+   · Make your own!                                                                                
+                                                                                                    
+   · Here are some examples of mine:                                                               
+                                                                                                    
+       * In python:                                                                                 
                                                                                                     
                                                                                                                                                                                                         
                                                                                                                                                                                                         

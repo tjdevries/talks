@@ -1,23 +1,23 @@
                                                                                                                                                                                                         
-                                              Why Vim?                                              
+                                         Plugin Management                                          
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · What can Vim do very well that other editors struggle with?                                   
+   · With Vim-plug, it's easy:                                                                     
                                                                                                     
-       * Edit text quickly                                                                          
+       " In your vimrc                                                                              
+       call plug#begin()                                                                            
                                                                                                     
-       * Navigate quickly                                                                           
+       " Install a plugin                                                                           
+       Plug 'shougo/deoplete.nvim'                                                                  
+       " Lazy load plugin only in Python files                                                      
+       Plug 'davidhalter/jedi-vim', { 'for': 'python' }                                             
                                                                                                     
-       * Extensible                                                                                 
+       " Install a plugin and then `do` something                                                   
+       Plug 'powerline/fonts', { 'do': './install.sh' } \                                           
+           | Plug 'bling/vim-airline'                                                               
                                                                                                     
-       * Fun!                                                                                       
+       call plug#end()                                                                              
                                                                                                     
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         

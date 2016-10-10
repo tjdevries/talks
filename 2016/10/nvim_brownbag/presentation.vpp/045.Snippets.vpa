@@ -1,19 +1,19 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                                              Snippets                                              
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
+   · Templates for code writing                                                                    
                                                                                                     
+   · Couple options:                                                                               
                                                                                                     
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
+       * neosnippets                                                                                
+                                                                                                    
+       * Ultisnips                                                                                  
+                                                                                                    
+       * Custom solution?                                                                           
+                                                                                                    
+   · I use Ultisnips                                                                               
+                                                                                                    
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         

@@ -1,14 +1,14 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                                        Tags and Navigation                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
+   · Introducing ctags, which can be found on pretty much every machine                            
                                                                                                     
+   · You can run ctags manually, usually with some command like                                    
+                                                                                                    
+       $ ctags -R .                                                                                 
+                                                                                                    
+   · And now you have your tags generated                                                          
                                                                                                     
                                                                                                                                                                                                         
                                                                                                                                                                                                         

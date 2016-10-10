@@ -1,16 +1,16 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                                        Tags and Navigation                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
+   · However, I use ludovicchabant/vim-gutentags.                                                  
                                                                                                     
+   · It manages tags files and keeps them up to date, and in general,                              
+       in your project scope, with is very nice.                                                    
                                                                                                     
-                                                                                                                                                                                                        
+       * Do note that this will pretty much put tags files everywhere.                              
+                                                                                                    
+       * You should put tags in your global gitignore!                                              
+                                                                                                    
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         

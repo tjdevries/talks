@@ -1,15 +1,15 @@
                                                                                                                                                                                                         
-                                            Why NeoVim?                                             
+                                             AND MORE!                                              
                                                                                                                                                                                                         
                                                                                                                                                                                                         
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
-                                                                                                    
-                                                                                                    
+   · Haven't talked about:                                                                         
+       * github.com/neomake/neomake: Asynchronous linting, but not that                             
+         exciting to watch in a presentation.                                                       
+       * github.com/vim-airline/vim-airline: A really pretty and                                    
+         easy to configure statusline                                                               
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
                                                                                                                                                                                                         
                                                                                                                                                                                                         
                                                                                                                                                                                                         
