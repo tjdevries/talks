@@ -1,24 +1,24 @@
-                                                                                                                                                                                                        
-                                            Why NeoVim?                                             
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-   · True client-server architecture                                                               
-       * Allows for embedding anywhere (opposite EMACS approach)                                    
-       * Custom GUIs                                                                                
-           * nvim-qt                                                                                
-           * nyaovim                                                                                
-           * and more!                                                                              
-                                                                                                    
-                                                                                                    
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
-                                                                                                                                                                                                        
+                                                                                                                                                        
+                                Why NeoVim?                                 
+                                                                                                                                                        
+                                                                                                                                                        
+   · True client-server architecture                                       
+       * Allows for embedding anywhere (opposite EMACS approach)            
+       * Custom GUIs                                                        
+           * nvim-qt                                                        
+           * nyaovim                                                        
+           * and more!                                                      
+                                                                            
+                                                                            
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        

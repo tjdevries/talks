@@ -7,7 +7,7 @@
 
 =title     What is Neovim?
 
-=presenter  TJ DeVries & Zak Walton
+=presenter  TJ DeVries
 =info       DW Brown Bag
 
 =duration   50 minutes
@@ -27,7 +27,8 @@ A Presentation about Vim...
 
 ...In Vim!
 
-* Thanks to {{trapd00r/vimpoint}}
+* Thanks to {{trapd00r/vimpoint}}, which I forked and have made 
+  a few small changes
 
 * This will probably lead to a few goofy things happening
     * Lots of plugins / Not my regular work environment, etc.
