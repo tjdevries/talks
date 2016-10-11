@@ -1,24 +1,24 @@
-                                                                                                                                                        
-                      Using Vim's Built-in Awesomeness                      
-                                                                                                                                                        
-                                                                                                                                                        
-   · Speaking Vim's Language: Count, Operator Object                       
-                                                                            
-       int main(not good) {                                                 
-          int a;                                                            
-          char b;                                                           
-                                                                            
-          a = 5 + 7;                                                        
-          if (a == 12) {                                                    
-              printf("Wow!");                                               
-          }                                                                 
-       }                                                                    
-                                                                            
-                                                                                                                                                        
-                                                                                                                                                        
-                                                                                                                                                        
-                                                                                                                                                        
-                                                                                                                                                        
-                                                                                                                                                        
-                                                                                                                                                        
-                                                                                                                                                        
+                                                                                                                                                                                                      
+                                 Using Vim's Built-in Awesomeness                                  
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+   · Speaking Vim's Language: Count, Operator Object                                              
+                                                                                                   
+       // ci(                                                                                      
+       // 2ct,                                                                                     
+       // %                                                                                        
+       int main(not, really, good) {                                                               
+          int a;                                                                                   
+          char b;                                                                                  
+                                                                                                   
+          // ^a     just for fun                                                                   
+          a = 5 + 7;                                                                               
+          if (a == 12) {                                                                           
+              // ci"                                                                               
+              printf("Wow!");                                                                      
+          }                                                                                        
+                                                                                                   
+          // thanks to tpope, vim-abolish                                                          
+          // cru, crs, crc, crm                                                                    
+          this_is_snake                                                                            
+       }                                                                                           

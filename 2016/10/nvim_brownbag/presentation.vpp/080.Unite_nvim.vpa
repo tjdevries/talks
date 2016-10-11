@@ -1,0 +1,24 @@
+                                                                                                                                                                                                      
+                                            Unite.nvim                                             
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+   · File navigation                                                                              
+                                                                                                   
+       nnoremap <silent> <leader>if :<C-u>Unite -start-insert buffer<CR>                           
+       nnoremap <silent> <leader>it :<C-u>Unite -start-insert tab:no-current<CR>                   
+                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      

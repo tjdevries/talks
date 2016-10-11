@@ -1,0 +1,24 @@
+                                                                                                                                                                                                      
+                                         Plugin Management                                         
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+   · With Vim-plug, it's easy:                                                                    
+                                                                                                   
+       " In your vimrc                                                                             
+       call plug#begin()                                                                           
+                                                                                                   
+       " Install a plugin                                                                          
+       Plug 'shougo/deoplete.nvim'                                                                 
+       " Lazy load plugin only in Python files                                                     
+       Plug 'davidhalter/jedi-vim', { 'for': 'python' }                                            
+                                                                                                   
+       " Install a plugin and then `do` something                                                  
+       Plug 'powerline/fonts', { 'do': './install.sh' } \                                          
+           | Plug 'bling/vim-airline'                                                              
+                                                                                                   
+       call plug#end()                                                                             
+                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      

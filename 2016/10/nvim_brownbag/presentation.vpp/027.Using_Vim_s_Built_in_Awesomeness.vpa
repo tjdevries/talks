@@ -1,0 +1,24 @@
+                                                                                                                                                                                                      
+                                 Using Vim's Built-in Awesomeness                                  
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+   · I think most of the time though, this can just be covered                                    
+     by a search and replace                                                                       
+                                                                                                   
+       // just search and replace                                                                  
+       // Change to a class                                                                        
+       // :s/my_list/my_obj.attr/g                                                                 
+       // Oh, changed my class name                                                                
+       // V2j:s/my_\w*/that/g                                                                      
+       that.attr[i] = this                                                                         
+       that.attr[i + 1] = this_or_that                                                             
+       that.attr[i + x] = that                                                                     
+                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
