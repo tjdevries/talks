@@ -16,9 +16,6 @@
 =autopause
 
 
-!!!!! Floobits
-!!!!! Cool vim operator combos
-!!!!! Built-in terminal (neovim)
 
 =section [#] Introduction
 
@@ -83,6 +80,12 @@ Why NeoVim?
         * nyaovim
         * and more!
 
+=break
+
+* I like the builtin terminal
+    * Note that it's built on a library for terminals
+
+* (TJ... don't forget to show the terminal)
 
 =section [#] Modern Vim
 
@@ -290,7 +293,7 @@ Snippets
 
 Tags and Navigation
 
-* "GUIs make it so I can go to the definition of stuff!
+* "GUI's make it so I can go to the definition of stuff!
   Vim could never do that"
 
 * WRONG! :)
@@ -388,6 +391,18 @@ Stuff we didn't have time for
     * github.com/vim-airline/vim-airline: A really pretty and
       easy to configure statusline
 
+=section Closing Thoughts
+
+Closing Thoughts
+
+* My goal is not (entirely) to convince you to switch to Vim
+    * I think it's fun to tinker
+    * You learn a lot while tinkering
+    * You become faster after tinkering (usually :) )
+* Playing with tools and eliminating annoyances is good
+    * You'll be annoyed less often!
+    * You'll have more fun :D
+
 =section The End
 
 The End
@@ -400,4 +415,4 @@ The End
 
 I LOVE VIM
 
-* I love (neo)vim
+* I love (neo)Vim
