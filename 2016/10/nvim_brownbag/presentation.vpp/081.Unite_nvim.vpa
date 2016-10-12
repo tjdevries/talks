@@ -2,15 +2,15 @@
                                             Unite.nvim                                             
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · File navigation                                                                              
+   · I only recently discovered this, so I haven't completely                                     
+     unlocked the power of Unite.                                                                  
                                                                                                    
-       nnoremap <silent> <leader>if :<C-u>Unite -start-insert buffer<CR>                           
-       nnoremap <silent> <leader>it :<C-u>Unite -start-insert tab:no-current<CR>                   
-                                                                                                   
-   · Current file navigation                                                                      
-                                                                                                   
-       nnoremap <silent> <leader>il :<C-u>Unite -start-insert line<CR>                             
-                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

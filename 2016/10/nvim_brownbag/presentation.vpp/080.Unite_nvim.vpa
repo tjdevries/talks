@@ -2,18 +2,18 @@
                                             Unite.nvim                                             
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · File navigation                                                                              
+   · What can you do with Unite?...                                                               
                                                                                                    
-       nnoremap <silent> <leader>if :<C-u>Unite -start-insert buffer<CR>                           
-       nnoremap <silent> <leader>it :<C-u>Unite -start-insert tab:no-current<CR>                   
+   · Anything!                                                                                    
                                                                                                    
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
+       * Fuzzy finding                                                                             
+                                                                                                   
+       * Tab/Buffer/Window/Line navigation                                                         
+                                                                                                   
+       * Play radio stations                                                                       
+                                                                                                   
+       * Shortcuts                                                                                 
+                                                                                                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

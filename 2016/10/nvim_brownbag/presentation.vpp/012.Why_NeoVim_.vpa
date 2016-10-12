@@ -2,14 +2,14 @@
                                             Why NeoVim?                                            
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · Less repeated work                                                                           
-       * Clipboard support                                                                         
-       * Remote plugin architecture                                                                
-       * Using libraries (libterm, xclip)                                                          
-   · Less *NIH* (Not Implemented Here) mentality                                                  
+   · True client-server architecture                                                              
+       * Allows for embedding anywhere (opposite EMACS approach)                                   
+       * Custom GUIs                                                                               
+           * nvim-qt                                                                               
+           * nyaovim                                                                               
+           * and more!                                                                             
                                                                                                    
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
+                                                                                                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

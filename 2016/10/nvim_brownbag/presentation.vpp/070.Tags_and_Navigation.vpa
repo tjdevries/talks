@@ -1,20 +1,20 @@
                                                                                                                                                                                                       
-                                             Snippets                                              
+                                        Tags and Navigation                                        
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · Templates for code writing                                                                   
+   · However, I use ludovicchabant/vim-gutentags.                                                 
                                                                                                    
-   · Couple options:                                                                              
+   · It manages tags files and keeps them up to date, and in general,                             
+       in your project scope, with is very nice.                                                   
                                                                                                    
-       * Neosnippets                                                                               
+       * Do note that this will pretty much put tags files everywhere.                             
                                                                                                    
-       * Ultisnips                                                                                 
+       * You should put tags in your global gitignore!                                             
                                                                                                    
-       * Custom solution?                                                                          
-                                                                                                   
-   · I use Ultisnips, but some others do offer either a simpler interface                         
-     or some easier ways of templating                                                             
-                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

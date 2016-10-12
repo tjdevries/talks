@@ -1,0 +1,19 @@
+// ci(
+// 2ct,
+// %
+int main(not, really, good) {
+   int a;
+   char b;
+
+   // ^a     just for fun
+   a = 5 + 7;
+   if (a == 12) {
+       // ci"
+       printf("Wow!");
+   }
+
+   // thanks to tpope, vim-abolish
+   // cru, crs, crc, crm
+   this_is_snake
+}
+

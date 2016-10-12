@@ -2,12 +2,12 @@
                                         Tags and Navigation                                        
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · Introducing ctags, which can be found on pretty much every machine                           
+   · "GUIs make it so I can go to the definition of stuff!                                        
+     Vim could never do that"                                                                      
                                                                                                    
-   · You can run ctags manually, usually with some command like                                   
-                                                                                                   
-       $ ctags -R .                                                                                
-                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

@@ -28,10 +28,16 @@ A Presentation about Vim...
 ...In Vim!
 
 * Thanks to {{trapd00r/vimpoint}}, which I forked and have made 
-  a few small changes
-
+  a few small changes.
 * This will probably lead to a few goofy things happening
     * Lots of plugins / Not my regular work environment, etc.
+* Anyway, feel free to ask questions.
+    * I'm hoping to have some extra time so we can explore together
+      and do a live demo (I apparently want this to go poorly).
+    * We should have time, assuming I don't get sidetracked on any
+      one topic for too long.
+    * But stop me at any time to go over something again or have me
+      try something different.
 
 Why Vim?
 
@@ -97,6 +103,8 @@ Using Vim's Built-in Awesomeness
 
 * Speaking Vim's Language: Count, Operator Object
 
+=example
+
     # Move one word
     one word two word
 
@@ -106,6 +114,8 @@ Using Vim's Built-in Awesomeness
 =break
 
 * Speaking Vim's Language: Count, Operator Object
+
+=example
 
     // ci(
     // 2ct,
@@ -131,7 +141,15 @@ Using Vim's Built-in Awesomeness
 * Combine these with macros, and you have yourself a
   very powerful tool
 
-    // Macro example
+=example
+
+    # create dictionary, my_values
+    # qai'<esc>Ea':<esc>ldwi '<esc>A<BS>',<esc>j^
+    one_key one_value;
+    this_key that_value;
+    a   3;
+    close                               far away;
+    anotherthing                that last one;
 
 =break
 
@@ -158,6 +176,8 @@ Using Vim's Built-in Awesomeness
 * Just to note, Vim can do other crazy stuff,
     like way nicer than multiple cursors crazy...
 
+=example
+
     // ^V2jt[cmy_ojb.attr
     my_obj.attr[i] = this
     my_obj.attr[i + 1] = this_or_that
@@ -170,14 +190,15 @@ Using Vim's Built-in Awesomeness
 * I think most of the time though, this can just be covered
   by a search and replace
 
+=example
     // just search and replace
     // Change to a class
     // :s/my_list/my_obj.attr/g
     // Oh, changed my class name
     // V2j:s/my_\w*/that/g
-    that.attr[i] = this
-    that.attr[i + 1] = this_or_that
-    that.attr[i + x] = that
+    my_list[i] = this
+    my_list[i + 1] = this_or_that
+    my_list[i + x] = that
 
 =section [#] Plugin Outline
 
@@ -221,8 +242,6 @@ Plugin Management
 Completion
 
 * First learn about some built-in features of Vim
-
-=break
 
    :help ins-completion 
 
@@ -356,13 +375,29 @@ Unite.nvim
 * Floobits:
 
     * FlooJoinWorkspace https://floobits.com/tjdevries/Floobits_Experimentation
+    * Please remind me to do that after the presentation, because I'm
+      a little worried I will lose my place and we're so close to finishing!
 
 =section [#] Stuff we couldn't get to
 
-AND MORE!
+Stuff we didn't have time for
 
 * Haven't talked about:
     * github.com/neomake/neomake: Asynchronous linting, but not that
       exciting to watch in a presentation.
     * github.com/vim-airline/vim-airline: A really pretty and
       easy to configure statusline
+
+=section The End
+
+The End
+
+* You can find these slides at github.com/tjdevries/talks
+* You can find my configuration at github.com/tjdevries/config_manager
+    * check the nvim/ folder
+* You can find the help at `:help <my topic>` or `:helpgrep <magic>`
+    * Also feel free to message me or ask me.
+
+I LOVE VIM
+
+* I love (neo)vim

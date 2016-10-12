@@ -1,16 +1,16 @@
                                                                                                                                                                                                       
-                                        Tags and Navigation                                        
+                                            Unite.nvim                                             
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · "GUIs make it so I can go to the definition of stuff!                                        
-     Vim could never do that"                                                                      
+   · File navigation                                                                              
                                                                                                    
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
+       nnoremap <silent> <leader>if :<C-u>Unite -start-insert buffer<CR>                           
+       nnoremap <silent> <leader>it :<C-u>Unite -start-insert tab:no-current<CR>                   
+                                                                                                   
+   · Current file navigation                                                                      
+                                                                                                   
+       nnoremap <silent> <leader>il :<C-u>Unite -start-insert line<CR>                             
+                                                                                                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

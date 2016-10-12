@@ -1,12 +1,12 @@
                                                                                                                                                                                                       
-                                            Unite.nvim                                             
+                                   Stuff we didn't have time for                                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · First off, there's a new version coming out called denite.nvim                               
-                                                                                                   
-   · It will be faster and better, but it doesn't have all the features                           
-     I'm going to be showing you today, and it's a bit experimental...                             
-     And I'm already worried about things breaking down.                                           
+   · Haven't talked about:                                                                        
+       * github.com/neomake/neomake: Asynchronous linting, but not that                            
+         exciting to watch in a presentation.                                                      
+       * github.com/vim-airline/vim-airline: A really pretty and                                   
+         easy to configure statusline                                                              
                                                                                                    
                                                                                                                                                                                                       
                                                                                                                                                                                                       

@@ -1,0 +1,9 @@
+// just search and replace
+// Change to a class
+// :s/my_list/my_obj.attr/g
+// Oh, changed my class name
+// V2j:s/my_\w*/that/g
+my_list[i] = this
+my_list[i + 1] = this_or_that
+my_list[i + x] = that
+

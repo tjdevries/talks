@@ -2,13 +2,13 @@
                                             Why NeoVim?                                            
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · More modern open source philosophy                                                           
-       * Multiple maintainers                                                                      
-       * Github collaboration with maintainers                                                     
-       * Lots of feedback                                                                          
-       * Nice community                                                                            
-       * Easy to get involved! (I've had 3 PR's accepted!)                                         
+   · Less repeated work                                                                           
+       * Clipboard support                                                                         
+       * Remote plugin architecture                                                                
+       * Using libraries (libterm, xclip)                                                          
+   · Less *NIH* (Not Implemented Here) mentality                                                  
                                                                                                    
+                                                                                                                                                                                                      
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

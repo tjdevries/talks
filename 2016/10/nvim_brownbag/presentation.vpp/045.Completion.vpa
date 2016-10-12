@@ -1,11 +1,11 @@
                                                                                                                                                                                                       
-                                            Unite.nvim                                             
+                                            Completion                                             
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · First off, there's a new version coming out called denite.nvim                               
+   · First learn about some built-in features of Vim                                              
                                                                                                    
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
+      :help ins-completion                                                                         
+                                                                                                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

@@ -49,6 +49,10 @@ Plug 'sirver/ultisnips' | Plug 'honza/vim-snippets'
 
 " tpope
 Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-surround'
+
+" floobits
+Plug 'floobits/floobits-neovim'
 
 call plug#end()
 
@@ -107,7 +111,7 @@ let g:UltiSnipsEditSplit='vertical'
 " Use Python Version
 let g:UltiSnipsUsePythonVersion = 3
 " }}}
-" Functions for presentation
+" Functions for presentation {{{
 
 function! SetupVimrcExample() abort
   set filetype=vim
@@ -141,6 +145,7 @@ let g:unite_source_menu_menus.quick_functions.command_candidates = {
       \ 'python, regular completion [ Python with no deoplete  ] ': 'call SetupCompletionExample()',
       \ 'python, deoplete enabled   [ Python with deoplete     ] ': 'call SetupDeopleteExample()',
       \ 'c,                         [ Snippets and C           ] ': 'call SetupCExample()',
+      \ 'floobits                   [ Open floobits session    ] ': 'FlooJoinWorkspace https://floobits.com/tjdevries/Floobits_Experimentation',
       \ }
 
 nnoremap ,pc :Unite menu:quick_functions -start-insert<CR>
@@ -159,3 +164,8 @@ endfunction
 
 nnoremap ,+ :call <SID>change_gui_font('plus')<CR>
 nnoremap ,- :call <SID>change_gui_font('minus')<CR>
+
+" }}}
+" Statusline {{{
+set statusline=Neovim\ BrownBag%=10-12%=Slide\ %.4{strpart(expand('%:t'),0,3)}
+" }}}

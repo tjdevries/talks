@@ -2,19 +2,19 @@
                                              Snippets                                              
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · Community snippets (honza/vim-snippets)                                                      
+   · Templates for code writing                                                                   
                                                                                                    
-   · Make your own!                                                                               
+   · Couple options:                                                                              
                                                                                                    
-   · Here are some examples of mine:                                                              
+       * Neosnippets                                                                               
                                                                                                    
-       * In python:                                                                                
+       * Ultisnips                                                                                 
                                                                                                    
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
+       * Custom solution?                                                                          
+                                                                                                   
+   · I use Ultisnips, but some others do offer either a simpler interface                         
+     or some easier ways of templating                                                             
+                                                                                                   
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       

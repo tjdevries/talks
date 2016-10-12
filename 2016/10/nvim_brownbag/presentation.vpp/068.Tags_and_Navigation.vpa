@@ -2,17 +2,17 @@
                                         Tags and Navigation                                        
                                                                                                                                                                                                       
                                                                                                                                                                                                       
-   · However, I use ludovicchabant/vim-gutentags.                                                 
+   · Introducing ctags, which can be found on pretty much every machine                           
                                                                                                    
-   · It manages tags files and keeps them up to date, and in general,                             
-       in your project scope, with is very nice.                                                   
+   · You can run ctags manually, usually with some command like                                   
                                                                                                    
-       * Do note that this will pretty much put tags files everywhere.                             
+       $ ctags -R .                                                                                
                                                                                                    
-       * You should put tags in your global gitignore!                                             
+   · And now you have your tags generated                                                         
                                                                                                    
-   · Here's an example.                                                                           
-                                                                                                   
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
+                                                                                                                                                                                                      
                                                                                                                                                                                                       
                                                                                                                                                                                                       
                                                                                                                                                                                                       
